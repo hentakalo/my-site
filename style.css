@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body {
+    background-image: url("images/view4.jpg");
+    
+    
+  }
+
+ul {
+    list-style-type: none;
+    padding: 50px;
+    background-color: rgba(94, 165, 245, 0.226);
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+    padding-bottom: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #000;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dff9fdf1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    direction: rtl;
+  }
+  
+  .dropdown-content a {
+    color: rgb(18, 56, 95);
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .title h1{
+   font-size: 30px;
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    
+    
+    
+}
+.main{
+    width: 80%;
+    padding-left: 25%;
+    color: teal;
+    font-size: 20px;
+    
+}
+.row{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(64, 224, 208, 0.151);
+
+}
+.row card{
+    padding: 30px;
+    margin-top: 50px;
+    
+      
+}
+.card{
+    direction: rtl;
+    margin: 20px;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
